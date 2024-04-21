@@ -1,11 +1,26 @@
-mkdir git_challenge
-cd c:\xampp\htdocs\git_challenge
-git init
-git add hello_world.txt
-git commit -m "hello_world.txtを追加"
-git add hello_world.txt
-git commit -m "日本語訳を追記
-git log --oneline
+PS C:\xampp\htdocs> mkdir git_challenge
 
-4b66d01 (HEAD -> master) 日本語訳を追記
-be4c7f3 hello_world.txtを追加
+
+    ディレクトリ: C:\xampp\htdocs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/04/21     16:11                git_challenge
+
+
+PS C:\xampp\htdocs> cd c:\xampp\htdocs\git_challenge
+PS C:\xampp\htdocs\git_challenge> git init
+Initialized empty Git repository in C:/xampp/htdocs/git_challenge/.git/
+PS C:\xampp\htdocs\git_challenge> git add hello_world.txt
+PS C:\xampp\htdocs\git_challenge> git commit -m "hello_world.txtを追加"
+[master (root-commit) a9426e9] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\xampp\htdocs\git_challenge> git add hello_world.txt
+PS C:\xampp\htdocs\git_challenge> git commit -m "日本語訳を追記"
+[master 5fb5415] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\xampp\htdocs\git_challenge> git log --oneline
+5fb5415 (HEAD -> master) 日本語訳を追記
+a9426e9 hello_world.txtを追加
