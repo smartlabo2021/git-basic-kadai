@@ -1,2 +1,11 @@
+mkdir git_challenge
+cd c:\xampp\htdocs\git_challenge
+git init
+git add hello_world.txt
+git commit -m "hello_world.txtを追加"
+git add hello_world.txt
+git commit -m "日本語訳を追記
+git log --oneline
+
 4b66d01 (HEAD -> master) 日本語訳を追記
 be4c7f3 hello_world.txtを追加
